@@ -1,0 +1,351 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 1.6;}
+
+/* navbar section */
+
+.navbar{background-color: black;
+display: flex;
+width: 100%;
+padding: 15px;
+position: fixed;}
+
+.nav-logo a{text-decoration: none;
+font-size: 30px;
+color: aliceblue;
+font-weight: bold;
+margin-left: 200px;}
+
+.nav-logo a:hover{color: orange; transition: .3s; font-size: 20px;}
+
+li{margin-left: 400px;
+margin-top: 13px;}
+
+li a{text-decoration: none;
+font-size: 15px;
+color: aliceblue;
+margin-left: 30px;}
+
+li a:hover{color:orange; transition: .3s;
+font-size: 10px;}
+
+/* hero section */
+
+.hero{background-image: url(kids.jpg);
+width: 100%;
+height:100vh;
+padding-top: 200px;}
+
+.hero-content{text-align: center;
+color: aliceblue;}
+
+.humanity{color: orange;
+text-decoration: none;}
+
+.hero-content .donation{font-weight: bold;
+margin-left: 600px;}
+
+.hero-link{display: flex;
+justify-content: center;
+margin-top: 20px;}
+
+.donate, .learn{height: 40px;
+    width: 160px;
+padding: 5px;}
+
+.donate{background-color:aliceblue;}
+
+.donate a{color: black;}
+
+.learn{border: 2px solid orange;
+margin-left: 10px;}
+
+.learn a{color: aliceblue;}
+
+.hero-link a {margin: 15px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;}
+
+/* donate-volunteer section  */
+
+.donate-volunteer{background-color: black;
+width: 100%;
+height:auto;
+display: flex;
+padding: 50px 20px 50px 20px;}
+
+.donation img, .volunteer img, .education img{ height: 30px;
+width: 30px;}
+
+.donation-content h3, .donation-content p, .volunteer-content h3, .volunteer-content p, .edu-content h3, .edu-content p {color: aliceblue;
+text-align: center;}
+
+.donation, .volunteer, .education{width: 300px;
+height: auto;
+padding: 30px;
+margin-left: 150px;}
+
+.donation a, .volunteer a, .education a{
+display:flex;
+align-content: center;
+justify-content:center;
+text-decoration: none;
+color: orange;}
+
+.donation img, .volunteer img, .education img{margin-left: 110px;}
+
+/* youtube section */
+
+.about{background-color: aliceblue;
+width: 100%;
+height: auto;
+padding-bottom: 100px;}
+
+.about1{display: flex;}
+
+.about-us{padding-top: 100px;
+margin-left: 300px;}
+
+.about-lorem{height: auto;
+width: 900px;
+padding-top: 100px;
+margin-left: 200px;}
+
+.button-1{height: 50px;
+width: 200px;
+padding: 10px;
+background-color: orange;
+margin-left: 680px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.button-1 a{text-decoration: none;
+color: aliceblue;}
+
+.button-2{height: 50px;
+width: 200px;
+padding: 10px;
+background-color: black;
+margin-left: 680px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.button-2 a{text-decoration: none;
+color: aliceblue;}
+
+.button-3{height: 50px;
+width: 200px;
+padding: 10px;
+background-color: black;
+margin-left: 680px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.button-3 a{text-decoration: none;
+color: aliceblue;}
+
+.abount-founder{margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;}
+
+/* service section */
+.services{width: 100%;
+height: auto;
+padding: 20PX 20PX 90PX 20PX;
+background-color: black;
+color: aliceblue;}
+
+.services1{display: flex;}
+
+.service-main{padding-top: 100px;
+margin-left: 290px;}
+
+.service-about{height: auto;
+width: 900px;
+padding-top: 100px;
+margin-left: 200px;}
+
+.service2 img,.service3 img {height: 30px;
+width: 30px;}
+
+.service2{display: flex;
+justify-content: space-between;
+margin-top: 70px;}
+
+.service3{display: flex;
+justify-content: space-between;
+margin-top: 40px;}
+
+.service2-one, .service2-two, .service2-three, .service2-four, .service2-five, .service2-six{height: auto;width: 300px;}
+
+.service2-one, .service2-two, .service2-three, .service2-four, .service2-five, .service2-six{text-align: center;}
+
+
+.service2-one a, .service2-two a, .service2-three a, .service2-four a, .service2-five a, .service2-six a{text-decoration: none;
+color: orange;}
+
+/* help poor */
+.help{width: 100%;
+height: auto;
+padding: 30px 0px 30px 0px;
+background-color: orange;
+text-align: center;}
+
+.help p{margin-top: 15px;}
+
+.help-btn{margin-top: 15px;
+height: 35px;
+width: 150px;
+margin-left: 690PX;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content:center;}
+
+.help-btn a{color: aliceblue;
+text-decoration: none;}
+
+/* causes section */
+
+.causes{background-color:aliceblue;
+width: 100%;
+height: auto;
+padding: 40px 20px 40px 20px;}
+
+.causes-one{display: flex;}
+
+.causes-main{margin-left: 290px;}
+
+.causes-about{margin-left: 230px;}
+
+.causes-content{display: flex;
+margin-top: 80px;
+justify-content: space-between;}
+
+.causes-content img{width:400px;
+height: 270px;}
+
+.CONTENT1, .CONTENT2, .CONTENT3{
+width: 400px;
+height: auto;
+text-align: center;
+padding-bottom: 15px;}
+
+.CONTENT1 a, .CONTENT2 a, .CONTENT3 a{text-decoration: none;
+color: aliceblue;
+background-color: orange;
+padding: 5px;}
+
+.causes-content h3{color: orange;}
+
+.CONTENT1a, .CONTENT2a, .CONTENT3a{height: 20px;
+width: 150px;
+margin-left: 100px;
+margin-top: 10px;}
+
+/* gallery section */
+
+.gallery{padding: 40px 20px 40px 20px;
+background-color: aliceblue;}
+
+.gallery-image1 img{height: 300px;
+width: 350px;}
+
+.gallery-image1{text-align: center;
+margin-top: 50px;}
+
+.gallery-image2 img{height: 300px;
+width: 350px;}
+
+.gallery-image2{text-align: center;}
+
+.gallery1{display: flex;}
+
+.gallery-main{margin-left: 270px;}
+
+.gallery-about{margin-left: 250px;}
+
+/* icon section */
+.donor-volunteers{background-color: black;
+width: 100%;
+height: auto;
+padding: 50px 250px 50px 250px;
+color: aliceblue;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.donor-volunteers img{height: 50px;
+width: 50px;}
+
+/* team section */
+.team{width: 100%;
+height: auto;
+background-color: aliceblue;
+padding: 50px 20px 50px 20px;}
+
+.team1{display: flex;}
+
+.team-image img{height: 200px;
+width: 300px;}
+
+.our{margin-left: 280px;}
+
+.team-image{ margin-top: 50px;
+display: flex;
+justify-content: space-between;
+text-align: center;}
+
+.team-image b{color: orange;}
+
+.team-about{margin-left: 220px;}
+
+/* contact section */
+.contact{background-color: aliceblue;
+width: 100%;
+height: auto;
+padding:30px;}
+
+.contact1{display: flex;}
+
+.contact-main{margin-left: 280px;}
+
+.contact-about{margin-left: 250px;}
+
+form{text-align: center;
+margin-top: 30px;}
+
+form input{height: 30px;
+width: 300px;
+margin-top: 20px;
+padding: 10px;
+border:2px solid black;
+border-radius: 10px;}
+
+textarea{margin-top: 20px;
+padding: 10px;
+border: 2px solid black;
+border-radius: 10px;}
+
+button{margin-top:10px;
+padding: 10px;
+border: 2px solid black;
+border-radius: 10px;}
+
+/* footer section */
+footer{background-color: aliceblue;
+padding-top: 30px;
+text-align: center;}
+
+.footer-icon img{height: 40px;
+width: 40px;
+margin-top: 10px;}
